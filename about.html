@@ -80,23 +80,23 @@
 
         .bio-details {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px 20px;
+            grid-template-columns: auto auto; 
+            gap: 10px;
         }
 
         .bio-details div {
             display: flex;
-            justify-content: space-between;
         }
 
         .bio-details span {
-            font-weight: bold;
-            color: #333;
+            flex: 0 0 100px; 
+            text-align: left; 
         }
 
         .bio-details small {
-            color: #666;
-    }
+            flex: 1; 
+            text-align: left; 
+        }
     </style>
 </head>
 <body>
