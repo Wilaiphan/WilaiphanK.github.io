@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WilaiphanK Profile</title>
   <style>
+    /* การตั้งค่าเบื้องต้น */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #F5EDED;
-    color: #6482AD;
+      color: #6482AD;
     }
     header {
       display: flex;
@@ -19,76 +20,71 @@
       padding: 20px 50px;
     }
     header a {
-            text-decoration: none;
-            color: #7FA1C3;
-            margin: 0 10px;
-        }
-        /* ลิงก์ที่กำลังแสดงอยู่ (active) */
-        .active {
-            color: #6482AD;
-            font-weight: bold;
-        }
-        /* กล่องเนื้อหา (container) */
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-            min-height: 90vh;
-        }
-        .container h1,
-        .container h2,
-        .container p {
-            margin: 0;
-            line-height: 2
-        }
-        .container img {
-<<<<<<< HEAD
-          width: 400px;
-          border-radius: 10px;
-        }
-        .hero {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 50px;
-=======
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            margin: 20px 0;
->>>>>>> 6084a7769ce2b2103145f42f8997efdb7b5e6da2
-        }
+      text-decoration: none;
+      color: #7FA1C3;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+    header a:hover {
+      color: #6482AD;
+      font-weight: bold;
+    }
+    .active {
+      color: #6482AD;
+      font-weight: bold;
+    }
 
-    
+    /* ส่วนฮีโร่ */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 50px;
+      text-align: center;
+    }
+    .container {
+      flex: 1;
+      max-width: 600px;
+    }
+    .container h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .container p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .container img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin: 20px auto;
+    }
   </style>
 </head>
 <body>
   <header>
     <nav>
-        <a href="index.html" class="active">Home</a>
+      <a href="index.html" class="active">Home</a>
       <a href="#">About</a>
       <a href="#">Skill</a>
       <a href="#">Project</a>
     </nav>
   </header>
-<<<<<<< HEAD
+
   <section class="hero">
-=======
->>>>>>> 6084a7769ce2b2103145f42f8997efdb7b5e6da2
     <div class="container">
       <p>Hello, I am</p>
       <h1>Wilaiphan Kunlachet</h1>
-      <p>Computer Science,Faculty of Science Sriracha </p>
+      <p>Computer Science, Faculty of Science Sriracha</p>
+      <a href="#" class="btn">Download CV</a>
     </div>
-<<<<<<< HEAD
-    <div class="container img">
-      <img src="" alt="WilaiphanK">
+    <div class="container">
+      <img src="https://via.placeholder.com/200" alt="WilaiphanK">
     </div>
   </section>
-=======
->>>>>>> 6084a7769ce2b2103145f42f8997efdb7b5e6da2
 </body>
 </html>
