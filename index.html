@@ -23,11 +23,6 @@
       text-decoration: none;
       color: #7FA1C3;
       margin: 0 10px;
-      font-size: 16px;
-    }
-    header a:hover {
-      color: #6482AD;
-      font-weight: bold;
     }
     .active {
       color: #6482AD;
@@ -35,17 +30,18 @@
     }
 
     .container {
-      flex: 1;
-      max-width: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      min-height: 90vh;
     }
-    .container h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
+    .container h1,
+    .container h2,
     .container p {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 20px;
+      margin: 0;
+      line-height: 2
     }
     .container img {
       border-radius: 50%;
@@ -57,6 +53,7 @@
   </style>
 </head>
 <body>
+  <!-- ส่วนหัวของเว็บไซต์ -->
   <header>
     <nav>
       <a href="index.html" class="active">Home</a>
@@ -69,6 +66,7 @@
       <p>Hello, I am</p>
       <h1>Wilaiphan Kunlachet</h1>
       <p>Computer Science, Faculty of Science Sriracha</p>
+      
       <img src="img/profile.PNG" alt="WilaiphanK">
     </div>
 </body>
