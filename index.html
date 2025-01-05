@@ -34,15 +34,6 @@
       font-weight: bold;
     }
 
-    /* ส่วนฮีโร่ */
-    .hero {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      padding: 50px;
-      text-align: center;
-    }
     .container {
       flex: 1;
       max-width: 600px;
@@ -57,8 +48,11 @@
       margin-bottom: 20px;
     }
     .container img {
-      width: 700px;
-      border-radius: 10px;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin: 20px 0;
     }
   </style>
 </head>
@@ -71,16 +65,11 @@
       <a href="#">Project</a>
     </nav>
   </header>
-
-  <section class="hero">
     <div class="container">
       <p>Hello, I am</p>
       <h1>Wilaiphan Kunlachet</h1>
       <p>Computer Science, Faculty of Science Sriracha</p>
-    </div>
-    <div class="container">
       <img src="img/profile.PNG" alt="WilaiphanK">
     </div>
-  </section>
 </body>
 </html>
