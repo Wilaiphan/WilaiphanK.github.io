@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WilaiphanK Profile</title>
   <style>
-    /* การตั้งค่าเบื้องต้น */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -13,147 +12,158 @@
       background-color: #F5EDED;
       color: #6482AD;
     }
+
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 20px 50px;
     }
+
     header a {
       text-decoration: none;
       color: #7FA1C3;
       margin: 0 10px;
     }
+
     .active {
       color: #6482AD;
       font-weight: bold;
     }
+
     .bio-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
     }
 
     .bio-container {
-        display: flex;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        max-width: 900px;
-        width: 100%;
+      display: flex;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      max-width: 900px;
+      width: 100%;
     }
 
     .bio-image {
-        flex: 1;
-        background: #f5f5f5;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
+      flex: 1;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
     }
 
     .bio-image img {
-        border-radius: 10px;
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
     }
 
     .bio-content {
-        flex: 2;
-        padding: 20px 30px;
+      flex: 2;
+      padding: 20px 30px;
     }
 
     .bio-content h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-        color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
     }
 
     .bio-content p {
-        line-height: 1.6;
-        margin-bottom: 20px;
-        color: #666;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #666;
     }
 
     .bio-details {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 20px;
     }
 
     .bio-details div {
-        display: flex;
-        justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
     }
 
     .bio-details span {
-        font-weight: bold;
-        color: #333;
+      font-weight: bold;
+      color: #333;
     }
 
     .bio-details small {
-        color: #666;
+      color: #666;
     }
-    </style>
-    </head>
-    <body>
-    <section class="bio-section">
-        <div class="bio-container">
-            <!-- รูปภาพ -->
-            <div class="bio-image">
-            <img src="" alt="Profile Picture">
-        <div class="bio-content">
-            <h2>About Me</h2>
-            <p>
-                Third-year Computer Science student with a strong work ethic, 
-                focused on hands-on experience, and always ready to develop and adapt to any situation.
-            </p>
-            
-            <div class="bio-details">
-                <div>
-                    <span>Birthday :</span>
-                    <small>16th June 2003</small>
-                </div>
-                <div>
-                    <span>E-mail :</span>
-                    <small>wilaiphan.kun@gmail.com</small>
-                </div>
-                <div>
-                    <span>Age :</span>
-                    <small>21 Yr</small>
-                </div>
-                <div>
-                    <span>Phone :</span>
-                    <small>092 505 5512</small>
-                </div>
-                <div>
-                    <span>Residence :</span>
-                    <small>Thai</small>
-                </div>
-                <div>
-                    <span>Salesforce:</span>
-                    <small>Skype.5555</small>
-                </div>
-                <div>
-                    <span>Salesforce :</span>
-                    <small>Skype.5555</small>
-                </div>
-                <div>
-                    <span>Address :</span>
-                    <small>Room 4508, PT Place,
-                        23/143 Moo 6, Thung Sukla, 
-                        Sriracha , Chonburi 20230 </small>
-                </div>
-                <div>
-                    <span>Tableau :</span>
-                    <small>Skype.5555</small>
-                </div>
-            </div>
+  </style>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="#">Skill</a>
+      <a href="#">Project</a>
+    </nav>
+  </header>
+
+  <!-- Bio Section -->
+  <section class="bio-section">
+    <div class="bio-container">
+      <!-- Profile Image -->
+      <div class="bio-image">
+        <img src="" alt="Profile Picture">
+      </div>
+
+      <!-- Bio Content -->
+      <div class="bio-content">
+        <h2>About Me</h2>
+        <p>
+          Third-year Computer Science student with a strong work ethic,
+          focused on hands-on experience, and always ready to develop and adapt to any situation.
+        </p>
+        
+        <!-- Bio Details -->
+        <div class="bio-details">
+          <div>
+            <span>Birthday:</span>
+            <small>16th June 2003</small>
+          </div>
+          <div>
+            <span>E-mail:</span>
+            <small>wilaiphan.kun@gmail.com</small>
+          </div>
+          <div>
+            <span>Age:</span>
+            <small>21 Years</small>
+          </div>
+          <div>
+            <span>Phone:</span>
+            <small>092 505 5512</small>
+          </div>
+          <div>
+            <span>Residence:</span>
+            <small>Thailand</small>
+          </div>
+          <div>
+            <span>Salesforce:</span>
+            <small>Skype.5555</small>
+          </div>
+          <div>
+            <span>Address:</span>
+            <small>Room 4508, PT Place, 23/143 Moo 6, Thung Sukla, Sriracha, Chonburi 20230</small>
+          </div>
         </div>
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
