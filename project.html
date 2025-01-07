@@ -6,58 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Project</title>
     <style>
-        /* การตั้งค่าพื้นฐานสำหรับทั้งหน้า */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #F5EDED;
-            color: #6482AD;
-        }
-
-        /* ส่วนหัวของหน้า (header) */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color: #FFF;
-            border-bottom: 2px solid #7FA1C3;
-        }
-
-        /* ลิงก์ในส่วน header */
-        header a {
-            text-decoration: none;
-            color: #7FA1C3;
-            margin: 0 10px;
-        }
-
-        /* ลิงก์ที่กำลังแสดงอยู่ (active) */
-        .active {
-            color: #6482AD;
-            font-weight: bold;
-        }
-
-        /* คอนเทนเนอร์สำหรับส่วนโปรเจกต์และโค้ด */
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 20px;
-            gap: 20px;
-        }
+      /* การตั้งค่าเบื้องต้น */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #F5EDED;
+        color: #6482AD;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+      }
+      header a {
+        text-decoration: none;
+        color: #7FA1C3;
+        margin: 0 10px;
+      }
+      .active {
+        color: #6482AD;
+        font-weight: bold;
+      }
+      /* คอนเทนเนอร์สำหรับส่วนโปรเจกต์และโค้ด */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+      }
 
         /* คอนเทนเนอร์ของโปรเจกต์ */
-        .projects {
-            flex: 1 1 300px;
-            max-width: 100%;
-            background-color: white;
-            border: 2px solid #7FA1C3;
-            border-radius: 10px;
-            padding: 20px;
-            box-sizing: border-box;
-        }
+      .projects {
+        flex: 1 1 300px;
+        max-width: 100%;
+        background-color: white;
+        border: 2px solid #7FA1C3;
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;    
+      }  
 
         .projects h3 {
             text-align: center;
